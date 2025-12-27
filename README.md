@@ -10,12 +10,13 @@ git clone https://github.com/BwithE/wpa_supplicant
 
 Make the script executable
 ```
-sudo chmod +x wpa_supplicant/wifi.sh
+cd wpa_supplicant/
+sudo chmod +x wifi.sh
 ```
 
 Run the script
 ```
-sudo .wpa_supplicant/wifi.sh
+sudo ./wifi.sh
 ```
 
 User input for ```SSID```
