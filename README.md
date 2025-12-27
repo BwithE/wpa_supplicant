@@ -3,18 +3,20 @@ Bash script to automate GUI-less, access-point configuration.
 
 This script will prompt for user input on SSID, Passphrase, and wireless interfaces.
 
-Create a local copy of the script.
-
-```wget https://raw.githubusercontent.com/BwithE/wpa_supplicant/main/wifi.sh```
+GIT
+```
+git clone https://github.com/BwithE/wpa_supplicant
+```
 
 Make the script executable
-
-```sudo chmod +x wifi.sh```
+```
+sudo chmod +x wpa_supplicant/wifi.sh
+```
 
 Run the script
-
-```sudo ./wifi.sh```
-
+```
+sudo .wpa_supplicant/wifi.sh
+```
 
 User input for ```SSID```
 
